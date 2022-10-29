@@ -2,31 +2,31 @@ export const linkButton = [
   {
     id: "",
     url: "",
-    buttonText: "",
+    buttonText: "Twitter Link",
   },
   {
     id: "",
     url: "",
-    buttonText: "",
+    buttonText: "Zuri Team",
   },
   {
     id: "",
     url: "",
-    buttonText: "",
+    buttonText: "Zuri Books",
   },
   {
     id: "",
     url: "",
-    buttonText: "",
+    buttonText: "Python Books",
   },
   {
     id: "",
     url: "",
-    buttonText: "",
+    buttonText: "Background Check for Coders",
   },
   {
     id: "",
     url: "",
-    buttonText: "",
+    buttonText: "Design Books",
   },
 ];
