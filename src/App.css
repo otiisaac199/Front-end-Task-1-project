@@ -1,3 +1,7 @@
+:root {
+  --bg-color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,3 +13,6 @@ body {
   font-family: Roboto;
 }
 
+.task-container {
+  background-color: var(--bg-color);
+}

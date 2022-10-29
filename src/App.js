@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 import Links from "./Components/Links";
+import Images from "./Components/Images";
 
 const App = () => {
   return (
