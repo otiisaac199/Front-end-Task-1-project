@@ -1,5 +1,8 @@
 :root {
-  --bg-color: white;
+  --btn-default-color: #1018280d;
+  --btn-default-color-hover: #d0d5dd;
+  --btn-default-color-disabled: #f2f4f7;
+  --btn-default-color-focus: #98a2b3;
 }
 
 * {
@@ -11,7 +14,7 @@
 
 body {
   font-family: Roboto;
-  background-color: var(--bg-color);
+  background-color: var(--btn-default-color);
 }
 
 .task-container {
@@ -24,6 +27,9 @@ body {
 
 .profile-container {
   margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-container img {
@@ -32,15 +38,18 @@ body {
   border-radius: 50%;
 }
 
-.profile-container h4 {
-  margin-top: 5px;
+.profile-container h2 {
+  margin-top: 15px;
 }
 .link-button-container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .button {
-  width: 100%;
+  width: 90%;
   padding: 1.8rem 0;
   border-radius: 8px;
   border: unset;
@@ -48,12 +57,21 @@ body {
   text-align: center;
   background-color: lightgrey;
   cursor: pointer;
-}
-
-.button a {
   color: black;
   font-size: 900;
   font-size: 0.8rem;
+}
+
+.button:hover {
+  background: var(--btn-default-color-hover);
+}
+
+.button:disabled {
+  background: var(--btn-default-color-disabled);
+}
+
+.button:focus {
+  background: var(--btn-default-color-focus);
 }
 
 @media screen and (max-width: 450px) {

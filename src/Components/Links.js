@@ -6,11 +6,9 @@ const Links = ({ links }) => {
       {links.map((link) => {
         const { id, url, buttonText } = link;
         return (
-          <button className="button">
-            <a href={url} key={id} id={id}>
-              {buttonText}
-            </a>
-          </button>
+          <a href={url} key={id} id={id} target="_blank" className="button">
+            {buttonText}
+          </a>
         );
       })}
     </div>
