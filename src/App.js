@@ -20,8 +20,11 @@ const App = () => {
           {/* <h2 id="slack">Oti Isaac</h2> */}
         </div>
         <div className="nav-icon">
-          <div className="nav-icon-overlay">
+          <div className="nav-icon-overlay share">
             <img src={Images.AvatarButton} alt="" />
+          </div>
+          <div className="nav-icon-overlay more">
+            <img src={Images.AvatarButton2} alt="" />
           </div>
         </div>
       </div>

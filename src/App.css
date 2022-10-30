@@ -29,9 +29,9 @@ body {
 .head-container {
   display: flex;
   align-items: flex-start;
-  margin-top: 2rem;
   justify-content: center;
-  /* width: 60%; */
+  margin-top: 2rem;
+  width: 60%;
   position: relative;
 }
 
@@ -43,11 +43,10 @@ body {
 }
 
 .nav-icon {
-  position: absolute;
   right: 0;
   width: 60%;
   height: 20px;
-  position: relative;
+  position: absolute;
 }
 
 .nav-icon img {
@@ -66,7 +65,7 @@ body {
   align-items: center;
 
   position: absolute;
-  right: -15rem;
+  right: 0;
 }
 
 .nav-icon-overlay:focus {
@@ -76,6 +75,19 @@ body {
 .nav-icon-overlay:hover {
   background-color: var(--btn-default-color-hover);
   cursor: pointer;
+}
+
+.nav-icon-overlay:disabled {
+  border: 1px dashed rgba(234, 236, 240, 1);
+}
+
+.nav-icon-overlay:disabled,
+.nav-icon-overlay img:disabled {
+  background: #f9fafb;
+}
+
+.more {
+  display: none;
 }
 
 .profile-container h2 {
@@ -153,12 +165,6 @@ body {
   border: 1px solid var(--btn-default-color-focus);
 }
 
-@media screen and (max-width: 450px) {
-  .task-container {
-    width: 90%;
-  }
-}
-
 .icons {
   display: flex;
   justify-content: center;
@@ -189,4 +195,16 @@ hr {
 
 .footer img {
   padding: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+  .task-container {
+    width: 90%;
+  }
+  .more {
+    display: flex;
+  }
+  .share {
+    display: none;
+  }
 }
