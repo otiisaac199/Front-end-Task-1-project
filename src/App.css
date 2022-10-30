@@ -3,6 +3,7 @@
   --btn-default-color-hover: #d0d5dd;
   --btn-default-color-disabled: #f2f4f7;
   --btn-default-color-focus: #98a2b3;
+  --color: black;
 }
 
 * {
@@ -78,4 +79,32 @@ body {
   .task-container {
     width: 90%;
   }
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.icons img {
+  padding: 7px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+hr {
+  width: 100%;
+  height: 0.13rem;
+  margin-top: 4rem;
+  border: unset;
+  background-color: var(--btn-default-color);
+}
+
+.footer {
+  width: 100%;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

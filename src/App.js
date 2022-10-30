@@ -3,6 +3,7 @@ import React from "react";
 import { linkButton } from "./Components/Data";
 import Links from "./Components/Links";
 import Images from "./Components/Images";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         {/* <h2 id="slack">Oti Isaac</h2> */}
       </div>
       <Links links={linkButton} />
+      <Footer {...Images} />
     </div>
   );
 };
