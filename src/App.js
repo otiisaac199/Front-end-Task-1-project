@@ -9,7 +9,12 @@ const App = () => {
   return (
     <div className="task-container">
       <div className="profile-container">
-        <img src={Images.ProfilePics} id="profile__img" alt="" />
+        <div className="img-container">
+          <img src={Images.ProfilePics} id="profile__img" alt="" />
+          <div className="img-overlay">
+            <img src={Images.Camera} alt="camera" />
+          </div>
+        </div>
         <h2 id="twitter">Webby_345</h2>
         {/* <h2 id="slack">Oti Isaac</h2> */}
       </div>
