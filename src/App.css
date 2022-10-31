@@ -51,8 +51,10 @@ body {
   position: absolute;
 }
 
-.nav-icon img {
+.nav-icon .img {
   cursor: pointer;
+  font-size: 3rem;
+  color: var(--btn-default-color-focus);
 }
 
 .nav-icon-overlay {
@@ -92,7 +94,7 @@ body {
 } */
 
 .nav-icon-overlay:disabled,
-.nav-icon-overlay img:disabled {
+.nav-icon-overlay .img:disabled {
   background: #f9fafb;
 }
 
@@ -159,8 +161,8 @@ body {
   background-color: lightgrey;
   cursor: pointer;
   color: var(--color);
-  font-size: 900;
-  font-size: 0.8rem;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .button:hover {

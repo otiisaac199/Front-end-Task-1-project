@@ -1,9 +1,9 @@
 export const linkButton = [
-  {
-    id: "#",
-    url: "https://twitter.com/webby_345",
-    buttonText: "Twitter Link",
-  },
+  // {
+  //   id: "#",
+  //   url: "https://twitter.com/webby_345",
+  //   buttonText: "Twitter Link",
+  // },
   {
     id: "btn__zuri",
     url: "https://training.zuri.team/",

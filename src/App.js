@@ -1,6 +1,8 @@
 import "./App.css";
 import React from "react";
 import { linkButton } from "./Components/Data";
+import { TiArrowForwardOutline } from "react-icons/ti";
+import { FiMoreHorizontal } from "react-icons/fi";
 import Links from "./Components/Links";
 import Images from "./Components/Images";
 import Footer from "./Components/Footer";
@@ -21,10 +23,12 @@ const App = () => {
         </div>
         <div className="nav-icon">
           <div className="nav-icon-overlay share">
-            <img src={Images.AvatarButton} alt="" />
+            {/* <img src={Images.AvatarButton} alt="" /> */}
+            <TiArrowForwardOutline className="img" />
           </div>
           <div className="nav-icon-overlay more">
-            <img src={Images.AvatarButton2} alt="" />
+            {/* <img src={Images.AvatarButton2} /> */}
+            <FiMoreHorizontal className="img" />
           </div>
         </div>
       </div>
