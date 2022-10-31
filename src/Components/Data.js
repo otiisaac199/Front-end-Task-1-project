@@ -1,32 +1,32 @@
 export const linkButton = [
+  // {
+  //   id: "#",
+  //   url: "https://twitter.com/webby_345",
+  //   buttonText: "Twitter Link",
+  // },
   {
-    id: "",
-    url: "",
-    buttonText: "",
+    id: "btn__zuri",
+    url: "https://training.zuri.team/",
+    buttonText: "Zuri Team",
   },
   {
-    id: "",
-    url: "",
-    buttonText: "",
+    id: "books",
+    url: "http://books.zuri.team/",
+    buttonText: "Zuri Books",
   },
   {
-    id: "",
-    url: "",
-    buttonText: "",
+    id: "book__python",
+    url: "https://books.zuri.team/",
+    buttonText: "Python Books",
   },
   {
-    id: "",
-    url: "",
-    buttonText: "",
+    id: "pitch",
+    url: "https://background.zuri.team/",
+    buttonText: "Background Check for Coders",
   },
   {
-    id: "",
-    url: "",
-    buttonText: "",
-  },
-  {
-    id: "",
-    url: "",
-    buttonText: "",
+    id: "book__design",
+    url: "https://books.zuri.team/design-rules",
+    buttonText: "Design Books",
   },
 ];
