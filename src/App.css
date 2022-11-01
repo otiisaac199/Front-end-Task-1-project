@@ -144,6 +144,35 @@ body {
   display: flex;
 }
 
+.tooltip {
+  font-size: 0.8rem;
+  background-color: var(--color);
+  position: absolute;
+  right: 125%;
+  z-index: 1;
+  width: max-content;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.share:hover .tooltip {
+  opacity: 1;
+}
+
+.tooltip::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 98%;
+  top: 20%;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+
 .link-button-container {
   width: 100%;
   display: flex;
