@@ -25,6 +25,7 @@ const App = () => {
           <div className="nav-icon-overlay share">
             {/* <img src={Images.AvatarButton} alt="" /> */}
             <TiArrowForwardOutline className="img" />
+            <p className="tooltip">Share Link</p>
           </div>
           <div className="nav-icon-overlay more">
             {/* <img src={Images.AvatarButton2} /> */}
